@@ -10,13 +10,26 @@ namespace Opdracht_3._7
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Schrijf hier een tekst:");
-            string line = Console.ReadLine();
-            string letter = ("a, e, o, u, i");
-            if (letter == line) ;
-            do
+            Console.Write("Schrijf hier je tekst : ");
+            string input = Console.ReadLine();
+            int val = '*';
+            string str = "";
+            int len = input.Length;
+            char[] ch = input.ToCharArray();
+            for (int i = 0; i < len; i++)
             {
-                Console.WriteLine("Hallo");
+                if (ch[i] == 'a' || ch[i] == 'e' || ch[i] == 'i' || ch[i] == 'o' || ch[i] == 'u' || ch[i] == 'A' || ch[i] == 'E' || ch[i] == 'I' || ch[i] == 'O' || ch[i] == 'U')
+                {
+                    string v = val.ToString();
+                    ch[i] = Convert.ToChar('*');
+                    str = str + ch[i];
+                    val++;
+                }
+                else
+                    str = str + ch[i];
             }
+            Console.WriteLine("Dit is je uitkomst:  " + str);
+            Console.ReadLine();
         }
     }
+}
