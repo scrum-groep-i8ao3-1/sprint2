@@ -3,40 +3,49 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using System.Timers;
 
-public class Example
+namespace Opdracht_3._10
 {
-    private static System.Timers.Timer aTimer;
-
-    public static void Main()
+    static class Constants
     {
-        SetTimer();
-
-        Console.WriteLine("\nPress the Enter key to exit the application...\n");
-        Console.WriteLine("The application started at {0:HH:mm:ss.fff}", DateTime.Now);
-        Console.ReadLine();
-        aTimer.Stop();
-        aTimer.Dispose();
-
-        Console.WriteLine("Terminating the application...");
+        public const int stopper = 1;
+        public const int seconden = 0;
+        public const int i = 3;
     }
 
-    private static void SetTimer()
+    public class Program
     {
-        // Create a timer with a two second interval.
-        aTimer = new System.Timers.Timer(1000);
-        // Hook up the Elapsed event for the timer. 
-        aTimer.Elapsed += OnTimedEvent;
-        aTimer.AutoReset = true;
-        aTimer.Enabled = true;
-    }
-
-    private static void OnTimedEvent(Object source, ElapsedEventArgs e)
-    {
-        Console.WriteLine("The Elapsed event was raised at {0:HH:mm:ss.fff}",
-                          e.SignalTime);
-        int x = x + 1;
-        string b = x.ToString;
+        public static void Main()
+        {
+            //startup
+            //seconden
+            //startup
+            while (Constants.i > -1)
+            {
+                if (Constants.i == 3)
+                {
+                    writer();
+                    Constants.i++;
+                }
+                if (Constants.stopper == 2)
+                {
+                    Console.Write(Constants.seconden);
+                    Console.ReadKey();
+                }
+                System.Threading.Thread.Sleep(1000);
+                Constants.seconden++;
+            }
+            //seconden
+            //writer
+             void writer() {
+                Console.WriteLine("wat is u naam: ");
+                Console.ReadLine();
+                Console.WriteLine("wat is u leeftijd: ");
+                Console.ReadLine();
+                Constants.stopper++;
+                Main();
+            }
+            //writer
+        }
     }
 }
