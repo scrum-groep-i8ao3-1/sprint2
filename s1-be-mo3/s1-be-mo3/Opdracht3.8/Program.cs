@@ -18,7 +18,8 @@ namespace Opdracht3._8
             string var;
             var = voornaam;
             int count = 0;
-            Console.WriteLine("Wat is/zijn uw tussenvoegsels?(aan elkaar) ");
+            int ctr = 0;
+            Console.WriteLine("Wat is/zijn uw tussenvoegsels? ");
             var tussen = Console.ReadLine();
 
             string voegsel;
@@ -32,15 +33,19 @@ namespace Opdracht3._8
 
             string name;
             name = naam;
-            for (int i = 0; i < naam.Length; i++)
-
+            for (int i = 0; i < name.Length; i++)
             {
                 count++;
+                if (name[i] == ' ')
+                {
+                    ctr++;
+                }
             }
+            int counter = count - ctr;
             string sub = voornaam.Substring(0, 1);
             string eerste = sub.ToLower();
             string lower = achternaam.ToLower();
-            Console.WriteLine("Uw Wachtwoord = {0}{1}"+ count, eerste, lower);
+            Console.WriteLine("Uw Wachtwoord = {0}{1}" + counter, eerste, lower);
             Console.ReadLine();
         }
     }

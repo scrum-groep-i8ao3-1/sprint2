@@ -9,21 +9,45 @@ namespace Opdracht3._8
 {
     class Program
     {
+
         public static void Main()
         {
-            Random rnd = new Random();
-            int random = rnd.Next(1, 101); // creates a number between 1 and 12
-            int a = (int)Convert.ToInt32(random);
             Console.WriteLine("Wat is uw voornaam? ");
-            string voornaam = Console.ReadLine();
-            Console.WriteLine("Wat zijn uw tussenvoegsels? ");
-            string tv = Console.ReadLine();
-            Console.WriteLine("Wat is uw achternaam? ");
-            string achternaam = Console.ReadLine();
-            Console.Clear();
-            Console.Write(voornaam +tv+ achternaam+a);
-            Console.ReadLine();
+            var voornaam = Console.ReadLine();
 
+            string var;
+            var = voornaam;
+            int count = 0;
+            int ctr = 0;
+            Console.WriteLine("Wat is/zijn uw tussenvoegsels?(aan elkaar) ");
+            var tussen = Console.ReadLine();
+
+            string voegsel;
+            voegsel = tussen;
+            Console.WriteLine("Wat is uw achternaam? ");
+            var achternaam = Console.ReadLine();
+
+            string achter;
+            achter = achternaam;
+            var naam = voornaam + tussen + achternaam;
+
+            string name;
+            name = naam;
+            for (int i = 0; i < name.Length; i++)
+
+            {
+                count++;
+                if (name[i] == ' ')
+                {
+                    ctr++;
+                }
+            }
+            string sub = voornaam.Substring(0, 1);
+            string eerste = sub.ToLower();
+            string lower = achternaam.ToLower();
+            int counter = count - ctr;
+            Console.WriteLine("Uw Wachtwoord = {0}{1}" + counter, eerste, lower);
+            Console.ReadLine();
         }
     }
 }
