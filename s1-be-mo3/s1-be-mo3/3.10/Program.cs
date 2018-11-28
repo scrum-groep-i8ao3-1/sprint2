@@ -24,6 +24,5 @@ namespace Opdracht_3._10
             Console.WriteLine("U heeft er zolang over gedaan: " + elapsedS);
             Console.ReadLine();
             }
-            //writer
         }
     }
