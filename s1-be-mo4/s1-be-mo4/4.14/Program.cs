@@ -43,13 +43,20 @@ namespace _4._14
                 }
                 else
                 Console.WriteLine("Delen");
-                Console.WriteLine(getal1 / getal2);
+                Console.WriteLine(getal2 / getal1);
          
             }
             if (keuze == 5)
             {
+                if (getal1 > getal2) {
                 Console.WriteLine("Modulus");
                 Console.WriteLine(getal1 % getal2);
+            }
+                else
+                {
+                    Console.WriteLine("Modulus");
+                    Console.WriteLine(getal2 % getal1);
+                }
             }
             Console.ReadLine();
         }
