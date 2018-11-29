@@ -16,14 +16,18 @@ namespace _5._3
             Console.WriteLine("Voer een willekeurig getal in: ");
             int getal2 = Convert.ToInt32(Console.ReadLine());
 
-            for (int i = getal1; i < getal2; i++)
-            Console.WriteLine(i);
-            Console.ReadKey();
+            for (int i = getal1 + 1; i < getal2; i++)
+            {
+                Console.WriteLine(i);
+            }
+                Console.ReadKey();
 
             if (getal1 > getal2)
             {
-                for (int b = getal1; b > getal2; b--)
-                Console.WriteLine(b);
+                for (int b = getal1 - 1; b > getal2; b--)
+                {
+                    Console.WriteLine(b);
+                }
                 Console.ReadKey();
             }
 
