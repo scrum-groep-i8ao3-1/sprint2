@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Opdracht_4._7
+namespace Vandaag
 {
     class Program
     {

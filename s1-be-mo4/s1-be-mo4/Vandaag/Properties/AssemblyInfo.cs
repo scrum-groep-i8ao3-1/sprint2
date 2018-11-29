@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Opdracht 4.7")]
+[assembly: AssemblyTitle("Vandaag")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("HP Inc.")]
-[assembly: AssemblyProduct("Opdracht 4.7")]
+[assembly: AssemblyProduct("Vandaag")]
 [assembly: AssemblyCopyright("Copyright © HP Inc. 2018")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("6102893b-f2f9-4cc4-9ade-c4699c2be192")]
+[assembly: Guid("ef1d182f-c48a-460e-a433-1ffdb5827875")]
 
 // Version information for an assembly consists of the following four values:
 //
