@@ -19,7 +19,7 @@ namespace Opdracht3._8
             var = voornaam;
             int count = 0;
             int ctr = 0;
-            Console.WriteLine("Wat is/zijn uw tussenvoegsels?(aan elkaar) ");
+            Console.WriteLine("Wat is/zijn uw tussenvoegsels? ");
             var tussen = Console.ReadLine();
 
             string voegsel;
