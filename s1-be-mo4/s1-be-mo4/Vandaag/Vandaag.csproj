@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{6102893B-F2F9-4CC4-9ADE-C4699C2BE192}</ProjectGuid>
+    <ProjectGuid>{EF1D182F-C48A-460E-A433-1FFDB5827875}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Opdracht_4._7</RootNamespace>
-    <AssemblyName>Opdracht_4._7</AssemblyName>
+    <RootNamespace>Vandaag</RootNamespace>
+    <AssemblyName>Vandaag</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
