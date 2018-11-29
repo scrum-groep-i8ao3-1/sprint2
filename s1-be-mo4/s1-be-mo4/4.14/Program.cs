@@ -48,8 +48,16 @@ namespace _4._14
             }
             if (keuze == 5)
             {
-                Console.WriteLine("Modulus");
-                Console.WriteLine(getal1 % getal2);
+                if(getal2 > getal1)
+                {
+                    Console.WriteLine("Modulus");
+                    Console.WriteLine(getal2 % getal1);
+                }
+                if(getal1 > getal2)
+                {
+                    Console.WriteLine("Modulus");
+                    Console.WriteLine(getal1 % getal2);
+                }
             }
             Console.ReadLine();
         }

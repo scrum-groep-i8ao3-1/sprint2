@@ -17,11 +17,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4.4", "4.4\4.4.csproj", "{9
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4.7", "4.7\4.7.csproj", "{97FA6E07-C9E4-42B3-ADF7-E5633AA542FA}"
 EndProject
-<<<<<<< HEAD
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4.14", "4.14\4.14.csproj", "{FC049094-3B32-4E25-B360-CEBB0A80C339}"
-=======
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4.13", "4.13\4.13.csproj", "{C280E760-1786-454F-A005-81BFB151D12E}"
->>>>>>> dad7b5ac9377c03cf4c5ead4c9f34c324faac695
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,17 +53,10 @@ Global
 		{97FA6E07-C9E4-42B3-ADF7-E5633AA542FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{97FA6E07-C9E4-42B3-ADF7-E5633AA542FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{97FA6E07-C9E4-42B3-ADF7-E5633AA542FA}.Release|Any CPU.Build.0 = Release|Any CPU
-<<<<<<< HEAD
 		{FC049094-3B32-4E25-B360-CEBB0A80C339}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{FC049094-3B32-4E25-B360-CEBB0A80C339}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FC049094-3B32-4E25-B360-CEBB0A80C339}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FC049094-3B32-4E25-B360-CEBB0A80C339}.Release|Any CPU.Build.0 = Release|Any CPU
-=======
-		{C280E760-1786-454F-A005-81BFB151D12E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C280E760-1786-454F-A005-81BFB151D12E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C280E760-1786-454F-A005-81BFB151D12E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C280E760-1786-454F-A005-81BFB151D12E}.Release|Any CPU.Build.0 = Release|Any CPU
->>>>>>> dad7b5ac9377c03cf4c5ead4c9f34c324faac695
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
