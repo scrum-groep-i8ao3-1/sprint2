@@ -48,28 +48,21 @@ namespace _4._14
             }
             if (keuze == 5)
             {
-<<<<<<< HEAD
-                if (getal1 > getal2) {
-                Console.WriteLine("Modulus");
-                Console.WriteLine(getal1 % getal2);
-=======
-                if(getal2 > getal1)
-                {
-                    Console.WriteLine("Modulus");
-                    Console.WriteLine(getal2 % getal1);
-                }
-                if(getal1 > getal2)
+                if (getal1 > getal2)
                 {
                     Console.WriteLine("Modulus");
                     Console.WriteLine(getal1 % getal2);
-                }
->>>>>>> 989697628b3f4503bdad2cdd28e17f28ce631d70
-            }
-                else
-                {
-                    Console.WriteLine("Modulus");
-                    Console.WriteLine(getal2 % getal1);
-                }
+                    if (getal2 > getal1)
+                    {
+                        Console.WriteLine("Modulus");
+                        Console.WriteLine(getal2 % getal1);
+                    }
+                    if (getal1 > getal2)
+                    {
+                        Console.WriteLine("Modulus");
+                        Console.WriteLine(getal1 % getal2);
+                    }
+                }   
             }
             Console.ReadLine();
         }

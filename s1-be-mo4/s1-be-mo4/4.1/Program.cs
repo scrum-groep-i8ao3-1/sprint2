@@ -23,12 +23,12 @@ namespace _4._1
             }
             if (g3 < g4)
             {
-                Console.Write("getal 1 is het grooste");
+                Console.Write("getal 2 is het grooste");
                 Console.ReadKey();
             }
             if (g3 > g4)
             {
-                Console.Write("getal 2 is het grootste");
+                Console.Write("getal 1 is het grootste");
                 Console.ReadKey();
             }
 
