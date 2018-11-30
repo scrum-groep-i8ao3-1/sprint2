@@ -31,7 +31,7 @@ namespace _4._2
             }
             else
             {
-                Console.Write("getal 3 is niet het klijnst");
+                Console.Write("getal 3 is niet het kleinst");
 
                 Console.Read();
             }
