@@ -11,12 +11,10 @@ namespace _4._15
         static void Main(string[] args)
         {
             //de score opstellen en variabelen maken
+            Console.Write("als je geen score hebt of het resultaat ontbreekt vul dan een 0 in ");
+            Console.ReadLine();
             Console.WriteLine("voer uw score in voor wiskunde 0 t/m 100: ");
             string  wis = Convert.ToString(Console.ReadLine());
-            if(wis == string.Empty)
-            {
-                Console.WriteLine("U heeft niks ingevuld. Als dit cijfer ontbreekt vul een '0' in. ");
-            }
             Console.WriteLine("voer uw score in voor Natuurkunde 0 t/m 100: ");
             string nat = Convert.ToString(Console.ReadLine());
             Console.WriteLine("voer uw score in voor Scheikunde 0 t/m 100: ");
@@ -39,17 +37,12 @@ namespace _4._15
                     Console.WriteLine("u mag deelnemen aan het examen");
                     Console.ReadLine();
                 }
-                if (wis1 < 40 || nat1 < 40 || sch1 < 40)
+                else if (wis1 < 60 || nat1 < 60 || sch1 < 60)
                 {
                     Console.WriteLine("u mag niet deelnemen aan het examen");
                     Console.ReadLine();
-                }
+                } 
 
-                if (wis1 == 0 || nat1 == 0 || sch1 == 0)
-                {
-                    Console.WriteLine("u mag niet deelnemen aan het examen");
-                    Console.ReadLine();
-                }
             }
         }
     }
