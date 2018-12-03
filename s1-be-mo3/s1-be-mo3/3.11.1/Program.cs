@@ -33,7 +33,7 @@ namespace _3._11._1
             Console.WriteLine("de dag in nummers is " + dy);
             // hoeveelste dag van de maand
             //week nummer
-            int weekNum = DateTime.Now.DayOfYear / 7;
+            int weekNum = ((DateTime.Now.DayOfYear + 1) / 7) + 1;
             Console.WriteLine("week nummer is " + weekNum);
             //week nummer
             //dag van jaar
