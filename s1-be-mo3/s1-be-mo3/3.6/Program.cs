@@ -63,7 +63,7 @@ namespace ConsoleApp1
             Console.WriteLine(nummer);
             Console.WriteLine("naam  " + naam + ' ' + achternaam);
             Console.WriteLine("cijfers NED   " + NED1 + ' ' + NED2 + ' ' + "gemiddelde " + GNED);
-            Console.WriteLine("cijfers ENG   " + ENG1 + ' ' + ENG1 + ' ' + "gemiddelde " + GENG);
+            Console.WriteLine("cijfers ENG   " + ENG1 + ' ' + ENG2 + ' ' + "gemiddelde " + GENG);
             Console.WriteLine("cijfers WIS   " + Wis1 + ' ' + WIS2 + ' ' + "gemiddelde " + GWIS);
             Console.WriteLine("cijfers PRG   " + PRG1 + ' ' + PRG2 + ' ' + "gemiddelde " + GPRG);
             Console.WriteLine("cijfers DBD   " + DBD1 + ' ' + DBD2 + ' ' + "gemiddelde " + GDBD);
