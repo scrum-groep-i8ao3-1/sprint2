@@ -18,8 +18,8 @@ namespace _3._5
             double breedte = Convert.ToDouble(Console.ReadLine());
             double vm = lengte * breedte;
             double jaar = vm * 12 * V;
-            double jaar2 = vm * 24 * V / 100 * 0b1011111;
-            double jaar3 = vm * 36 * V / 100 * 0b1011010;
+            double jaar2 = vm * 24 * V / 100 * 95;
+            double jaar3 = vm * 36 * V / 100 * 90;
             Console.WriteLine("De stalling voor 1 jaar in euro is: " + jaar);
             Console.WriteLine("De stalling voor 2 jaar in euro is: " + jaar2);
             Console.WriteLine("De stalling voor 3 jaar in euro is: " + jaar3);
