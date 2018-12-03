@@ -5,18 +5,12 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("5.20")]
+[assembly: AssemblyTitle("4.10.1")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-<<<<<<< HEAD
-[assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("5.20")]
-[assembly: AssemblyCopyright("Copyright ©  2018")]
-=======
 [assembly: AssemblyCompany("HP Inc.")]
-[assembly: AssemblyProduct("5.20")]
+[assembly: AssemblyProduct("4.10.1")]
 [assembly: AssemblyCopyright("Copyright © HP Inc. 2018")]
->>>>>>> ddd5f319db1c35e832519cb075c8fb489fba393e
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
@@ -26,11 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-<<<<<<< HEAD
-[assembly: Guid("ac80a888-d45f-4bf8-b54e-595e207f3faf")]
-=======
-[assembly: Guid("eb5a829e-17c0-4fe0-8e16-4c282b067e74")]
->>>>>>> ddd5f319db1c35e832519cb075c8fb489fba393e
+[assembly: Guid("b8889b5e-0b6f-45ed-8edf-3e53f8474932")]
 
 // Version information for an assembly consists of the following four values:
 //
