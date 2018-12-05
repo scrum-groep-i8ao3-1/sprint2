@@ -10,28 +10,24 @@ namespace _5._22
     {
         static void Main(string[] args)
         {
-            //1 + 1 = 2
-            int oud = 1;
-            // 1 is het oude getal
-            int niew = 2;
-            int niewniew = 0;
-            int totaal = 0;
+            //variabelen 
+            int oud = 0;
+            int nieuw = 1;
+            int nieuwnieuw = 0;
+            int bijH = 0;
 
-            // 2 het niewe getal
-            while (oud < 400000)
+
+
+            // nieuw en oud omzetten en het antwoord laten zien 
+            while (bijH != 25)
             {
-                niewniew = oud + niew;
-                if ((niewniew % 2) == 0)
-                {
-                    totaal += niewniew;
-
-                }
-                oud = niew;
-                niew = niewniew;
+                bijH = bijH + 1;
+                nieuwnieuw = oud += nieuw;
+                oud = nieuw;
+                nieuw = nieuwnieuw;
+                Console.WriteLine(nieuwnieuw);
+                Console.ReadLine();
             }
-            int totaal2 = 2 + totaal;
-            Console.WriteLine(totaal2);
-            Console.ReadLine();
         }
     }
 }
