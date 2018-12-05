@@ -85,6 +85,8 @@ namespace _5._20
                 int c5 = Convert.ToInt32(x5);
                 int c6 = Convert.ToInt32(x6);
                 int c7 = Convert.ToInt32(x7);
+            //converattie
+            //vermenevuldingen
             int v1 = c1 * c1;
             int v2 = c2 * c2 * c2;
             int v3 = c3 * c3 * c3 * c3;
@@ -93,6 +95,7 @@ namespace _5._20
             int v6 = c6 * c6 * c6 * c6 * c6 * c6;
             int v7 = c7 * c7 * c7 * c7 * c7 * c7 * c7;
             int totaal = v1 + v2 + v3 + v4 + v5 + v6 + v7;
+            //vermenevuldigingen
 
             //convertatie
             Console.WriteLine(totaal);

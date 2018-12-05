@@ -17,8 +17,8 @@ namespace _5._22
             int niewniew = 0;
             int totaal = 0;
 
-            // 2 het niewe getal
-            while (oud < 400000)
+                // 2 het niewe getal
+                while (oud < 400000)
             {
                 niewniew = oud + niew;
                 if ((niewniew % 2) == 0)
