@@ -22,6 +22,12 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Opdracht 5.15", "Opdracht 3.15\Opdracht 5.15.csproj", "{80512DC3-36FD-4D04-AC8F-7778534BA42C}"
 EndProject
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Opdracht5.18", "Opdracht5.18\Opdracht5.18.csproj", "{F1DD9478-EEF9-4521-B334-D6F0CA9283B1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Opdracht5.19", "Opdracht5.19\Opdracht5.19.csproj", "{B3EC5CE6-CC0E-4912-8D18-98432026D2C6}"
+>>>>>>> 853c7195f547f38e0d05044a01a5453b8f0057f3
 =======
 <<<<<<< HEAD
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5.20 opdracht af", "5.20 opdracht af\5.20 opdracht af.csproj", "{07C97864-6D63-48DE-A380-26DEBE28119F}"
@@ -121,6 +127,8 @@ Global
 		{B3EC5CE6-CC0E-4912-8D18-98432026D2C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B3EC5CE6-CC0E-4912-8D18-98432026D2C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B3EC5CE6-CC0E-4912-8D18-98432026D2C6}.Release|Any CPU.Build.0 = Release|Any CPU
+<<<<<<< HEAD
+=======
 		{77681782-3FCB-4B3B-8990-6C5292BFC3A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{77681782-3FCB-4B3B-8990-6C5292BFC3A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{77681782-3FCB-4B3B-8990-6C5292BFC3A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
