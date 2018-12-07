@@ -33,20 +33,21 @@ namespace Opdracht5._12
             for (int numlist = 0; numlist < n; numlist++)
             {
                 
-                if (min > numbers[numlist]) min = numbers[numlist];
+                if (min > numbers[numlist]) min = numbers[numlist]; 
                 if (max < numbers[numlist])  max = numbers[numlist]; 
+                
 
             }
             
             
             Console.Title = "console colors";
-           // Console.ForegroundColor = ConsoleColor.Red;
+            Console.ForegroundColor = ConsoleColor.Red;
             Console.WriteLine("Het grootste getal is:" + numbers.Max());
             Console.ForegroundColor = ConsoleColor.Blue;
             Console.WriteLine("Het kleinste getal is:" + numbers.Min());
             Console.ReadKey();
-            
 
+           
 
 
 
