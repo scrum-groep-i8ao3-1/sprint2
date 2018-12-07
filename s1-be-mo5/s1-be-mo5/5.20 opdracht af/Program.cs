@@ -19,7 +19,7 @@ public class DisariumNumbers
     }
 
     //sum berekenen
-    public static int sumteken(int num)
+    public static int sum1(int num)
     {
         int sum = 0, rem = 0;
         int len = length(num);
@@ -44,7 +44,7 @@ public class DisariumNumbers
 
         for (int i = 1; i <= number; i++)
         {
-            result = sumteken(i);
+            result = sum1(i);
 
             if (result == i)
                 Console.Write(i + " ");
