@@ -32,16 +32,25 @@ namespace _4._15
             }
             else
             {
-                if (wis1 >= 60 && nat1 >= 60 && sch1 >= 60 || ts >= 180)
+                
+                if (wis1 < 40 || nat1 < 40 || sch1 < 40)
+                {
+                    Console.WriteLine("u mag niet deelnemen aan het examen");
+                    Console.ReadLine();
+                }
+
+                else if (wis1 >= 60 && nat1 >= 60 && sch1 >= 60 || ts >= 180)
                 {
                     Console.WriteLine("u mag deelnemen aan het examen");
                     Console.ReadLine();
                 }
+
+
                 else if (wis1 < 60 || nat1 < 60 || sch1 < 60)
                 {
                     Console.WriteLine("u mag niet deelnemen aan het examen");
                     Console.ReadLine();
-                } 
+                }
 
             }
         }
