@@ -10,13 +10,13 @@ namespace Opdracht5._12
     {
         static void Main(string[] args)
         {
-            //bepaald de grote van de array
+            //bepaald de grote van de array dus als je 5 aangeeft zal get max een index hebben van 5
             Console.Write("Hoeveel nummers moet de lijst bevatten?: ");
             int n = Convert.ToInt32(Console.ReadLine());
-            // bepaald de naam van de array
+            // bepaald de naam van de array dus in dit geval is het n
             int[] numbers = new int[n];
             //zet min en max op 0
-            int min = numbers[0]; 
+            int min = numbers[0];
             int max = numbers[0];
             
 
@@ -26,31 +26,57 @@ namespace Opdracht5._12
             {
                 Console.Write("Voer nummer {0} in:  ", numlist + 1);
                 numbers[numlist] = Convert.ToInt32(Console.ReadLine());
+                // Bepaald de max en min van de array
+               
+                for (int i = 0; i < 10; i++ )
+                {
+                    if (numbers[numlist] == max)
+                    {
+                        Console.ForegroundColor = ConsoleColor.Blue;
+                        Console.WriteLine(max);
+                        Console.ResetColor();
+                    }
+                    else if (numbers[numlist] == min)
+                    {
+                        Console.ForegroundColor = ConsoleColor.Red;
+                        Console.WriteLine(min);
+                        Console.ResetColor();
+                    }
+                    else
+                    {
+                        Console.WriteLine(numbers[numlist]);
+                    }
+                }
+                Console.Clear();
+
                 
             }
-            // Bepaald de max en min van de array
+            
 
-            for (int numlist = 0; numlist < n; numlist++)
+            // geeft de lijst met ingevoerde waardes weer 
+           for (int i = 0; i < numbers.Count(); i++)
             {
-                
-                if (min > numbers[numlist]) min = numbers[numlist]; 
-                if (max < numbers[numlist])  max = numbers[numlist]; 
-                
+                Console.WriteLine(numbers[i]);
+               
+
 
             }
-            
-            
-            Console.Title = "console colors";
+               
+            //Laat het grootste en kleinste getal zien 
+            Console.Write("Het grootste getal is: ");
             Console.ForegroundColor = ConsoleColor.Red;
-            Console.WriteLine("Het grootste getal is:" + numbers.Max());
+            Console.Write(numbers.Max() + "\n"); 
+            Console.ForegroundColor = ConsoleColor.White;
+            Console.Write("Het kleinste getal is: ");
             Console.ForegroundColor = ConsoleColor.Blue;
-            Console.WriteLine("Het kleinste getal is:" + numbers.Min());
+            Console.Write(numbers.Min());
+            
+          
+          
+
+
             Console.ReadKey();
-
-           
-
-
-
+          
         }
     }
 }
