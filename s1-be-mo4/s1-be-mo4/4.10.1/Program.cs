@@ -11,8 +11,7 @@ namespace Opdracht_4._2
         static void Main(string[] args)
         {
             //input
-            Console.WriteLine("Type een nummer tussen de 1 en de 7: ");
-            int weekgetal = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Type een nummer tussen de 1 en de 7: ");            int weekgetal = Convert.ToInt32(Console.ReadLine());
 
             if (weekgetal == 1)
             {

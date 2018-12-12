@@ -11,7 +11,7 @@ namespace _3._11._1
         static void Main(string[] args)
         {
             //jaar
-            DateTime huidigetijd = DateTime.Now;
+            DateTime huidigetijd = new DateTime(2011, 1, 1);
             string jaar = huidigetijd.Year.ToString();
             Console.WriteLine("het jaar is "+jaar);
             //af en werkt
@@ -33,7 +33,7 @@ namespace _3._11._1
             Console.WriteLine("de dag in nummers is " + dy);
             // hoeveelste dag van de maand
             //week nummer
-            int weekNum = ((DateTime.Now.DayOfYear + 1) / 7) + 1;
+            int weekNum = (huidigetijd.DayOfYear / 7);
             Console.WriteLine("week nummer is " + weekNum);
             //week nummer
             //dag van jaar
@@ -43,6 +43,7 @@ namespace _3._11._1
             //einde read */all
             Console.Read();
             //einde read */all
+
         }
     }
 }

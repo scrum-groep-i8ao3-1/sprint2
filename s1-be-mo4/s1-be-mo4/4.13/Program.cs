@@ -10,6 +10,7 @@ namespace _4._13
     {
         static void Main(string[] args)
         {
+            // goedgekeurd door jairo
             //een automorf is een getal (6) wat in het kwadraat 6(2) 
             //input
             Console.WriteLine("wat is je getal: ");
@@ -23,7 +24,7 @@ namespace _4._13
                 Console.WriteLine(getal2 + " is een automorf");
                 Console.ReadLine();
             }
-            else
+            if (uitkomst /= getal2)
             {
                 Console.WriteLine(getal2 + " is geen automorf");
                 Console.ReadLine();
