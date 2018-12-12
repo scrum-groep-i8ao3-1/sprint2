@@ -1,0 +1,61 @@
+[school-opdracht-een]
+//maak table een
+create table table1(id int primary key,leeftijd int );
+//maak table 2
+create table table2(id int primary key,dood bit, geld int);
+//sql querrie
+create table table1(id int primary key,leeftijd int );
+create table table2(id int primary key,dood bit, geld int);
+select table1.id,table1.naam,table2.geld,table2.dood from table1 full outer join table2
+on table1.id=table2.id
+[school-opdracht-een]
+[school-opdracht-twee]
+create table student (
+studentid int primary key not null,
+naam text,
+leeftijd int,
+slbid int,
+)
+create table leraar(
+leraarid int primary key not null,
+naam text,
+email text,
+leeftijd int,
+slbid int
+)
+create table resultaat(
+resultaatid int primary key,
+studentid int,
+leraarid int,
+vakid int,
+datum text,
+cijfer int not null,
+)
+create table vak (
+vakid int primary key not null,
+naamvak text,
+)
+//vak
+insert into vak values (1,'nederlands');
+insert into vak values (2,'ondernemend gedrag');
+insert into vak values (3,'engels');
+insert into vak values (4,'rekenen');
+//student
+insert into student values (1,'danny',16,1);
+insert into student values (2,'daniel',16,1);
+insert into student values (3,'jairo',17,2);
+insert into student values (4,'kevin',23,3);
+//leraar
+insert into leraar values (1,'bert','bertvanderwoort@rocvantwente.nl',46,1);
+insert into leraar values (2,'henk','henkdepotvis@rocvantwente.nl',25,2);
+insert into leraar values (3,'ben','benadelaar@rocvantwente.nl',30,3);
+//resultaat
+insert into resultaat values (1,1,1,1,'12-12-2018',9.5);
+insert into resultaat values (2,3,2,1,'12-0-2018',5.5);
+insert into resultaat values (3,1,3,1,'12-13-2018',5.5);
+//querrie
+select * from resultaat
+full outer join student on resultaat.studentid = student.studentid
+full outer join vak on resultaat.vakid = vak.vakid
+full outer join leraar on resultaat.leraarid = leraar.leraarid;
+[school-opdracht-twee]
