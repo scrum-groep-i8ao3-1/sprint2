@@ -18,7 +18,8 @@ namespace Opdracht5._12
             //zet min en max op 0
             int min = numbers[0];
             int max = numbers[0];
-            
+            int hoog = 0;
+
 
 
             // voegt nummers toe tot bepaalde max van de array is bereikt
@@ -32,6 +33,7 @@ namespace Opdracht5._12
                 {
                     if (numbers[numlist] == max)
                     {
+                        hoog = numbers[numlist];
                         Console.ForegroundColor = ConsoleColor.Blue;
                         Console.WriteLine(max);
                         Console.ResetColor();
@@ -52,12 +54,27 @@ namespace Opdracht5._12
                 
             }
             
-
             // geeft de lijst met ingevoerde waardes weer 
            for (int i = 0; i < numbers.Count(); i++)
             {
-                Console.WriteLine(numbers[i]);
-               
+                if (i == numbers.Max())
+                {
+                    Console.ForegroundColor = ConsoleColor.Red;
+                    Console.WriteLine(numbers[i]);
+                    Console.ForegroundColor = ConsoleColor.White;
+                }
+                if (i == numbers.Min())
+                {
+                    Console.ForegroundColor = ConsoleColor.Blue;
+                    Console.WriteLine(numbers[i]);
+                    Console.ForegroundColor = ConsoleColor.White;
+                }
+                else
+                {
+                    Console.WriteLine(numbers[i]);
+                }
+
+
 
 
             }
