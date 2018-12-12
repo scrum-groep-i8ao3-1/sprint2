@@ -51,7 +51,7 @@ namespace Opdracht_4._2
             }
             if (weekgetal > 7)
             {
-                Console.WriteLine("Dit getat is te hoog.");
+                Console.WriteLine("Dit getal is te hoog.");
                 Console.ReadLine();
             }
         }

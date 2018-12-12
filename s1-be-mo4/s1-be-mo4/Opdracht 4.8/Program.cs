@@ -13,6 +13,8 @@ namespace Opdracht_4._8
         {
             static void Main(string[] args)
             {
+                DateTime testdatum = DateTime.Now;
+                //DateTime testdatum = new DateTime(2018, 6, 12);
                 Console.WriteLine("Kies een taal u heeft de keuze uit: Nederlands, Duits, Engels, Frans, Spaans en Italiaans");
                 string taal = Console.ReadLine();
 
@@ -20,7 +22,7 @@ namespace Opdracht_4._8
                 {
                     System.Globalization.CultureInfo ci = new System.Globalization.CultureInfo("nl-NL");
                     System.Threading.Thread.CurrentThread.CurrentCulture = ci;
-                    string maand = DateTime.Now.ToString("MMMM");
+                    string maand = testdatum.ToString("MMMM");
                     Console.WriteLine("De huidige maand: " + maand);
                     Console.ReadLine();
                 }
@@ -29,7 +31,7 @@ namespace Opdracht_4._8
                 {
                     System.Globalization.CultureInfo ci = new System.Globalization.CultureInfo("de-DE");
                     System.Threading.Thread.CurrentThread.CurrentCulture = ci;
-                    string maand = DateTime.Now.ToString("MMMM");
+                    string maand = testdatum.ToString("MMMM");
                     Console.WriteLine("Der aktuelle Monat ist: " + maand);
                     Console.ReadLine();
                 }
@@ -38,7 +40,7 @@ namespace Opdracht_4._8
                 {
                     System.Globalization.CultureInfo ci = new System.Globalization.CultureInfo("en-GB");
                     System.Threading.Thread.CurrentThread.CurrentCulture = ci;
-                    string maand = DateTime.Now.ToString("MMMM");
+                    string maand = testdatum.ToString("MMMM");
                     Console.WriteLine("The current month is: " + maand);
                     Console.ReadLine();
                 }
@@ -47,7 +49,7 @@ namespace Opdracht_4._8
                 {
                     System.Globalization.CultureInfo ci = new System.Globalization.CultureInfo("fr-FR");
                     System.Threading.Thread.CurrentThread.CurrentCulture = ci;
-                    string maand = DateTime.Now.ToString("MMMM");
+                    string maand = testdatum.ToString("MMMM");
                     Console.WriteLine("Le mois en cours est: " + maand);
                     Console.ReadLine();
                 }
@@ -56,7 +58,7 @@ namespace Opdracht_4._8
                 {
                     System.Globalization.CultureInfo ci = new System.Globalization.CultureInfo("es-ES");
                     System.Threading.Thread.CurrentThread.CurrentCulture = ci;
-                    string maand = DateTime.Now.ToString("MMMM");
+                    string maand = testdatum.ToString("MMMM");
                     Console.WriteLine("El mes actual es: " + maand);
                     Console.ReadLine();
                 }
@@ -65,7 +67,7 @@ namespace Opdracht_4._8
                 {
                     System.Globalization.CultureInfo ci = new System.Globalization.CultureInfo("it-IT");
                     System.Threading.Thread.CurrentThread.CurrentCulture = ci;
-                    string maand = DateTime.Now.ToString("MMMM");
+                    string maand = testdatum.ToString("MMMM");
                     Console.WriteLine("Il mese corrente è: " + maand);
                     Console.ReadLine();
                 }
@@ -81,7 +83,7 @@ namespace Opdracht_4._8
                 {
                     System.Globalization.CultureInfo ci = new System.Globalization.CultureInfo("nl-NL");
                     System.Threading.Thread.CurrentThread.CurrentCulture = ci;
-                    string maand = DateTime.Now.ToString("MMMM");
+                    string maand = testdatum.ToString("MMMM");
                     Console.WriteLine("De huidige maand: " + maand);
                     Console.ReadLine();
                 }
@@ -90,7 +92,7 @@ namespace Opdracht_4._8
                 {
                     System.Globalization.CultureInfo ci = new System.Globalization.CultureInfo("de-DE");
                     System.Threading.Thread.CurrentThread.CurrentCulture = ci;
-                    string maand = DateTime.Now.ToString("MMMM");
+                    string maand = testdatum.ToString("MMMM");
                     Console.WriteLine("Der aktuelle Monat ist: " + maand);
                     Console.ReadLine();
                 }
@@ -99,7 +101,7 @@ namespace Opdracht_4._8
                 {
                     System.Globalization.CultureInfo ci = new System.Globalization.CultureInfo("en-GB");
                     System.Threading.Thread.CurrentThread.CurrentCulture = ci;
-                    string maand = DateTime.Now.ToString("MMMM");
+                    string maand = testdatum.ToString("MMMM");
                     Console.WriteLine("The current month is: " + maand);
                     Console.ReadLine();
                 }
@@ -108,7 +110,7 @@ namespace Opdracht_4._8
                 {
                     System.Globalization.CultureInfo ci = new System.Globalization.CultureInfo("fr-FR");
                     System.Threading.Thread.CurrentThread.CurrentCulture = ci;
-                    string maand = DateTime.Now.ToString("MMMM");
+                    string maand = testdatum.ToString("MMMM");
                     Console.WriteLine("Le mois en cours est: " + maand);
                     Console.ReadLine();
                 }
@@ -117,7 +119,7 @@ namespace Opdracht_4._8
                 {
                     System.Globalization.CultureInfo ci = new System.Globalization.CultureInfo("es-ES");
                     System.Threading.Thread.CurrentThread.CurrentCulture = ci;
-                    string maand = DateTime.Now.ToString("MMMM");
+                    string maand = testdatum.ToString("MMMM");
                     Console.WriteLine("El mes actual es: " + maand);
                     Console.ReadLine();
                 }
@@ -126,7 +128,7 @@ namespace Opdracht_4._8
                 {
                     System.Globalization.CultureInfo ci = new System.Globalization.CultureInfo("it-IT");
                     System.Threading.Thread.CurrentThread.CurrentCulture = ci;
-                    string maand = DateTime.Now.ToString("MMMM");
+                    string maand = testdatum.ToString("MMMM");
                     Console.WriteLine("Il mese corrente è: " + maand);
                     Console.ReadLine();
                 }

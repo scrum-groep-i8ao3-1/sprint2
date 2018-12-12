@@ -25,55 +25,55 @@ namespace Opdracht4._5
                 Console.ReadLine();
                 
             }
-            else if (punten >= 60)
+            else if (punten <= 60)
             {
                 Console.WriteLine("je beoordeling is een C");
                 Console.WriteLine("je hebt een voldoende");
                 Console.ReadLine();
                 
             }
-            else if (punten >= 65)
+            else if (punten <= 65)
             {
                 Console.WriteLine("je beoordeling is een C+");
                 Console.ReadLine();
                 
             }
-            else if (punten >= 70)
+            else if (punten <= 70)
             {
                 Console.WriteLine("je beoordeling is een B");
                 Console.WriteLine("je hebt een voldoende");
                 Console.ReadLine();
                 
             }
-            else if (punten >= 75)
+            else if (punten <= 75)
             {
                 Console.WriteLine("je beoordeling is een C+");
                 Console.WriteLine("je hebt een voldoende");
                 Console.ReadLine();
                 
             }
-            else if (punten >= 80)
+            else if (punten <= 80)
             {
                 Console.WriteLine("je beoordeling is een B");
                 Console.WriteLine("je hebt een voldoende");
                 Console.ReadLine();
                 
             }
-            else if (punten >= 85)
+            else if (punten <= 85)
             {
                 Console.WriteLine("je beoordeling is een B+");
                 Console.WriteLine("je hebt een voldoende");
                 Console.ReadLine();
                 
             }
-            else if (punten >= 90)
+            else if (punten <= 90)
             {
                 Console.WriteLine("je beoordeling is een A");
                 Console.WriteLine("je hebt een voldoende");
                 Console.ReadLine();
                 
             }
-            else if (punten >= 95)
+            else if (punten <= 95)
             {
                 Console.WriteLine("je beoordeling is een A+");
                 Console.WriteLine("je hebt een voldoende");

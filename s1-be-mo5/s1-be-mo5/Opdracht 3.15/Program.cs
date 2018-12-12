@@ -16,6 +16,7 @@ namespace Opdracht_3._15
             //Input
             Console.WriteLine("geef mij een woord:  ");
             string str = Console.ReadLine();
+           
             //Spaties bij elkaar optellen
             int ctr = 0;
 
@@ -33,14 +34,17 @@ namespace Opdracht_3._15
                 {
                     txt++;
                 }
+           
             //tekens zonder spaties
             int tekens = txt - ctr;
+           
             //Max aantal tekens
             if (tekens > 25)
             {
                 Console.WriteLine("De zin is te lang het maximum aantal tekens is 25.");
             }
             Console.ReadLine();
+           
             //uitkomst
             if (tekens <= 25)
             {
