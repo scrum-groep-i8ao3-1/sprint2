@@ -60,6 +60,20 @@ namespace ConsoleApp12
             {
                 Console.WriteLine("december");
             }
+<<<<<<< HEAD
         }
     }
 }
+=======
+            else
+            {
+                Console.WriteLine("dat is geen datum");
+
+
+            }
+            Console.ReadKey();
+        }
+    }
+}
+
+>>>>>>> 7862acb04f685151626a522648c76ed874a9a035

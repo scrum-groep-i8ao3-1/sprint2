@@ -10,47 +10,29 @@ namespace ConsoleApp12
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("geef je punten");
-            int punten = Convert.ToInt32(Console.ReadLine());
-            if (punten <= 50)
+            Console.WriteLine("geef aantal werkuren");
+            int werkuren = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("hoe oud is het apparaat");
+            int leeftijd = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("geef aantal storingen");
+            int storingen = Convert.ToInt32(Console.ReadLine());
+            if (werkuren >= 10000)
             {
-                Console.WriteLine("F. je hebt een onvoldoende ");
+                Console.WriteLine("hij moet vervangen worden");
             }
-            else if (punten <= 60)
+            else if (leeftijd >= 7)
             {
-                Console.WriteLine("D. je hebt een voldoende");
+                Console.WriteLine("hij moet vervangen worden");
             }
-            else if (punten <= 65)
+            else if (storingen >= 25)
             {
-                Console.WriteLine("D+. je hebt een voldoende");
-            }
-            else if (punten <= 70)
-            {
-                Console.WriteLine("C. je hebt een voldoende");
-            }
-            else if (punten <= 75)
-            {
-                Console.WriteLine("C+. je hebt een voldoende");
-            }
-            else if (punten <= 80)
-            {
-                Console.WriteLine("B. je hebt een voldoende");
-            }
-            else if (punten <= 85)
-            {
-                Console.WriteLine("B+. je hebt een voldoende");
-            }
-            else if (punten <= 90)
-            {
-                Console.WriteLine("A. je hebt een voldoende");
-            }
-            else if (punten <= 100)
-            {
-                Console.WriteLine("A+. je hebt een voldoende");
+                Console.WriteLine("hij moet vervangen worden");
+
+
             }
             else
             {
-                Console.WriteLine("dat is niet geldig ");
+                Console.WriteLine("het hoeft niet vervangen te worden");
             }
             Console.ReadKey();
         }
