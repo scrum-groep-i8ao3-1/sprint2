@@ -20,8 +20,6 @@ namespace Opdracht5._12
             int max = numbers[0];
             int hoog = 0;
 
-
-
             // voegt nummers toe tot bepaalde max van de array is bereikt
             for (int numlist = 0; numlist < n; numlist++)
             {
@@ -57,13 +55,13 @@ namespace Opdracht5._12
             // geeft de lijst met ingevoerde waardes weer 
            for (int i = 0; i < numbers.Count(); i++)
             {
-                if (i == numbers.Max())
+                if (min == numbers.Min())
                 {
                     Console.ForegroundColor = ConsoleColor.Red;
                     Console.WriteLine(numbers[i]);
                     Console.ForegroundColor = ConsoleColor.White;
                 }
-                if (i == numbers.Min())
+                if (max == numbers.Max())
                 {
                     Console.ForegroundColor = ConsoleColor.Blue;
                     Console.WriteLine(numbers[i]);
@@ -73,13 +71,7 @@ namespace Opdracht5._12
                 {
                     Console.WriteLine(numbers[i]);
                 }
-
-
-
-
-            }
-               
-            //Laat het grootste en kleinste getal zien 
+            }            //Laat het grootste en kleinste getal zien 
             Console.Write("Het grootste getal is: ");
             Console.ForegroundColor = ConsoleColor.Red;
             Console.Write(numbers.Max() + "\n"); 
@@ -87,13 +79,7 @@ namespace Opdracht5._12
             Console.Write("Het kleinste getal is: ");
             Console.ForegroundColor = ConsoleColor.Blue;
             Console.Write(numbers.Min());
-            
-          
-          
-
-
-            Console.ReadKey();
-          
+            Console.ReadKey();  
         }
     }
 }
