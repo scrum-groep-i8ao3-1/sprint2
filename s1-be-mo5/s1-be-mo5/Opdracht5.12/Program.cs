@@ -15,45 +15,42 @@ namespace Opdracht5._12
             int n = Convert.ToInt32(Console.ReadLine());
             // bepaald de naam van de array dus in dit geval is het n
             int[] numbers = new int[n];
-            //zet min en max op 0
-            int min = numbers[0];
-            int max = numbers[0];
-            int hoog = 0;
+           
 
             // voegt nummers toe tot bepaalde max van de array is bereikt
             for (int numlist = 0; numlist < n; numlist++)
             {
                 Console.Write("Voer nummer {0} in:  ", numlist + 1);
                 numbers[numlist] = Convert.ToInt32(Console.ReadLine());
+                int max = numbers.Max();
+                int min = numbers.Min();
                 // Bepaald de max en min van de array
-               
                 for (int i = 0; i < 10; i++ )
                 {
                     if (numbers[numlist] == max)
                     {
-                        hoog = numbers[numlist];
                         Console.ForegroundColor = ConsoleColor.Blue;
-                        Console.WriteLine(max);
+                        Console.Write(max);
                         Console.ResetColor();
                     }
                     else if (numbers[numlist] == min)
                     {
                         Console.ForegroundColor = ConsoleColor.Red;
-                        Console.WriteLine(min);
+                        Console.Write(min);
                         Console.ResetColor();
                     }
                     else
                     {
-                        Console.WriteLine(numbers[numlist]);
+                        Console.Write(numlist);
                     }
                 }
                 Console.Clear();
 
                 
             }
-            
+
             // geeft de lijst met ingevoerde waardes weer 
-           for (int i = 0; i < numbers.Count(); i++)
+            for (int i = 0; i < numbers.Count(); i++)
             {
                 if (min == numbers.Min())
                 {
