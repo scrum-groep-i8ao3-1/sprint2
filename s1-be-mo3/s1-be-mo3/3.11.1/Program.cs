@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -8,21 +9,24 @@ namespace _3._11._1
 {
     class Program
     {
+        //nagekeken door jairo
+        //gemaakt door dannylanssink
         static void Main(string[] args)
         {
             //jaar
-            DateTime huidigetijd = new DateTime(2011, 1, 1);
+
+            DateTime huidigetijd = DateTime.Today;
             string jaar = huidigetijd.Year.ToString();
             Console.WriteLine("het jaar is "+jaar);
             //af en werkt
             //jaar
             //maand
-            string maand = DateTime.Now.ToString("MMMM");
+            string maand = DateTime.Now.ToString("MM");
             Console.WriteLine("de maand is "+maand);
             //af en werkt
             //maand
             //dag
-            string dag = DateTime.Now.ToString("dddd");
+            string dag = DateTime.Now.ToString("dd");
             Console.WriteLine("de dag is " + dag);
             //af en werkt
             //dag
@@ -33,13 +37,20 @@ namespace _3._11._1
             Console.WriteLine("de dag in nummers is " + dy);
             // hoeveelste dag van de maand
             //week nummer
-            int weekNum = (huidigetijd.DayOfYear / 7);
-            Console.WriteLine("week nummer is " + weekNum);
+            int djaar = Convert.ToInt32(jaar);//werkt
+            int dmaand = Convert.ToInt32(maand);
+            int ddag = Convert.ToInt32(dag);
+            var d = new DateTime(djaar, dmaand, ddag);
+            CultureInfo cul = CultureInfo.CurrentCulture;
+            CultureInfo ciCurr = CultureInfo.CurrentCulture;
+            int weekNumber = ciCurr.Calendar.GetWeekOfYear(d, CalendarWeekRule.FirstDay, DayOfWeek.Monday);
+            String WeekNumberS = Convert.ToString(weekNumber);
+            Console.WriteLine("week number is " + WeekNumberS);
             //week nummer
-            //dag van jaar
             //dag van jaar
             int dvj = DateTime.Now.DayOfYear;
             Console.WriteLine("de dag van het jaar is " + dvj);
+            //dag van jaar
             //einde read */all
             Console.Read();
             //einde read */all
