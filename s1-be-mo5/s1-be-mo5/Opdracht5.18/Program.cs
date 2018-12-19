@@ -10,6 +10,30 @@ namespace Opdracht5._18
     {
         static void Main(string[] args)
         {
+<<<<<<< HEAD
+            string s1 = Console.ReadLine();
+            string s2 = "@";
+            string s3 = ".com";
+            string s4 = ".nl";
+            bool b = s1.Contains(s2 && s3);
+            string s5 = s1;
+            bool a = s5.Contains(s2 + s4);
+            if(a == true)
+            {
+                Console.WriteLine("Dit is een geldig mail adress");
+                if (b == true)
+                {
+                    Console.WriteLine("Dit is een geldig mail adress");
+                }
+                else
+                    Console.WriteLine("Dit is GEEN geldig mail adress");
+            }
+            Console.ReadLine();
+
+        }
+    }
+}
+=======
             // e-mail lezen en checken op valide symbolen \\
             string s1 = Console.ReadLine();
             string s2 = "@";
@@ -33,3 +57,4 @@ namespace Opdracht5._18
         }
     }
 }
+>>>>>>> 7862acb04f685151626a522648c76ed874a9a035

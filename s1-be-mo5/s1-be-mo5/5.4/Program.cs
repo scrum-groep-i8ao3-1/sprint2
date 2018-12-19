@@ -10,7 +10,7 @@ namespace _5._4
     {
         static void Main(string[] args)
         {
-            for (int i = 1901; i < 2018; i++)
+            for (int i = 1900; i < 2019; i++)
             {
                 if ((i % 4 == 0 && i % 100 != 0) || (i % 400 == 0))
                 {
