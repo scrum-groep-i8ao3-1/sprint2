@@ -4,14 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-<<<<<<< HEAD
-    <ProjectGuid>{C8DF7A6E-5594-4665-A0F5-C26F13176762}</ProjectGuid>
-=======
-    <ProjectGuid>{F1DD9478-EEF9-4521-B334-D6F0CA9283B1}</ProjectGuid>
->>>>>>> 7862acb04f685151626a522648c76ed874a9a035
+    <ProjectGuid>{AECD42C7-963F-4333-8398-13A4ACBD413C}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Opdracht5._18</RootNamespace>
-    <AssemblyName>Opdracht5.18</AssemblyName>
+    <RootNamespace>_5._18</RootNamespace>
+    <AssemblyName>5.18</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

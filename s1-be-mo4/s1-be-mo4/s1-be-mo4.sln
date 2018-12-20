@@ -20,6 +20,15 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4.7", "4.7\4.7.csproj", "{97FA6E07-C9E4-42B3-ADF7-E5633AA542FA}"
 <<<<<<< HEAD
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Opdracht 4.16", "Opdracht 4.16\Opdracht 4.16.csproj", "{914F3E8D-51D8-4165-BAE7-168E68F49220}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4.15", "4.15\4.15.csproj", "{5B6D4A37-E097-47C4-8601-B184E0A29B57}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4.14", "4.14\4.14.csproj", "{FC049094-3B32-4E25-B360-CEBB0A80C339}"
+EndProject
+=======
+<<<<<<< HEAD
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4.14", "4.14\4.14.csproj", "{FC049094-3B32-4E25-B360-CEBB0A80C339}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Opdracht 4.16", "Opdracht 4.16\Opdracht 4.16.csproj", "{914F3E8D-51D8-4165-BAE7-168E68F49220}"
@@ -40,6 +49,7 @@ EndProject
 >>>>>>> 6c35c54f6cf94137045efbea420a89bf9a3717da
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4.15", "4.15\4.15.csproj", "{5B6D4A37-E097-47C4-8601-B184E0A29B57}"
 EndProject
+>>>>>>> 7862acb04f685151626a522648c76ed874a9a035
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4.13", "4.13\4.13.csproj", "{C280E760-1786-454F-A005-81BFB151D12E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "opdracht 4.3", "opdracht 4.3\opdracht 4.3.csproj", "{3E31DAED-24C2-4A97-B653-D30FEFA4432B}"
@@ -53,6 +63,10 @@ EndProject
 <<<<<<< HEAD
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4.5", "4.5\4.5.csproj", "{562CC5B3-8C38-448E-9517-9F807AB825DA}"
 EndProject
+<<<<<<< HEAD
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4.12.1", "4.12.1\4.12.1.csproj", "{F11546D2-B428-4DB9-9D84-84F59CB9DA4A}"
+EndProject
+=======
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4.12.1", "4.12.1\4.12.1.csproj", "{F11546D2-B428-4DB9-9D84-84F59CB9DA4A}"
 EndProject
 <<<<<<< HEAD
@@ -82,6 +96,7 @@ EndProject
 >>>>>>> b4b3b6b5428c5a2d29e9e4f7896638446db2a51f
 >>>>>>> 7a5e61da3b98b7c9466087bddd06aa26c59363ab
 >>>>>>> 6c35c54f6cf94137045efbea420a89bf9a3717da
+>>>>>>> 7862acb04f685151626a522648c76ed874a9a035
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -123,10 +138,15 @@ Global
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 7862acb04f685151626a522648c76ed874a9a035
 		{914F3E8D-51D8-4165-BAE7-168E68F49220}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{914F3E8D-51D8-4165-BAE7-168E68F49220}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{914F3E8D-51D8-4165-BAE7-168E68F49220}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{914F3E8D-51D8-4165-BAE7-168E68F49220}.Release|Any CPU.Build.0 = Release|Any CPU
+<<<<<<< HEAD
+=======
 =======
 >>>>>>> b4b3b6b5428c5a2d29e9e4f7896638446db2a51f
 >>>>>>> 6c35c54f6cf94137045efbea420a89bf9a3717da
@@ -140,10 +160,17 @@ Global
 =======
 <<<<<<< HEAD
 >>>>>>> b4b3b6b5428c5a2d29e9e4f7896638446db2a51f
+>>>>>>> 7862acb04f685151626a522648c76ed874a9a035
 		{5B6D4A37-E097-47C4-8601-B184E0A29B57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{5B6D4A37-E097-47C4-8601-B184E0A29B57}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5B6D4A37-E097-47C4-8601-B184E0A29B57}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5B6D4A37-E097-47C4-8601-B184E0A29B57}.Release|Any CPU.Build.0 = Release|Any CPU
+<<<<<<< HEAD
+		{FC049094-3B32-4E25-B360-CEBB0A80C339}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC049094-3B32-4E25-B360-CEBB0A80C339}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC049094-3B32-4E25-B360-CEBB0A80C339}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC049094-3B32-4E25-B360-CEBB0A80C339}.Release|Any CPU.Build.0 = Release|Any CPU
+=======
 <<<<<<< HEAD
 =======
 =======
@@ -161,6 +188,7 @@ Global
 =======
 >>>>>>> b4b3b6b5428c5a2d29e9e4f7896638446db2a51f
 >>>>>>> 6c35c54f6cf94137045efbea420a89bf9a3717da
+>>>>>>> 7862acb04f685151626a522648c76ed874a9a035
 		{C280E760-1786-454F-A005-81BFB151D12E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{C280E760-1786-454F-A005-81BFB151D12E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C280E760-1786-454F-A005-81BFB151D12E}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -193,12 +221,17 @@ Global
 =======
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
+=======
 >>>>>>> 7a5e61da3b98b7c9466087bddd06aa26c59363ab
 >>>>>>> 6c35c54f6cf94137045efbea420a89bf9a3717da
+>>>>>>> 7862acb04f685151626a522648c76ed874a9a035
 		{F11546D2-B428-4DB9-9D84-84F59CB9DA4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{F11546D2-B428-4DB9-9D84-84F59CB9DA4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F11546D2-B428-4DB9-9D84-84F59CB9DA4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F11546D2-B428-4DB9-9D84-84F59CB9DA4A}.Release|Any CPU.Build.0 = Release|Any CPU
+<<<<<<< HEAD
+=======
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -225,6 +258,7 @@ Global
 >>>>>>> b4b3b6b5428c5a2d29e9e4f7896638446db2a51f
 >>>>>>> 7a5e61da3b98b7c9466087bddd06aa26c59363ab
 >>>>>>> 6c35c54f6cf94137045efbea420a89bf9a3717da
+>>>>>>> 7862acb04f685151626a522648c76ed874a9a035
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
