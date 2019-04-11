@@ -15,16 +15,16 @@ namespace ConsoleApp1
             Console.ForegroundColor = ConsoleColor.Blue;
             Console.Clear();
 
-            
+
             //Text
             Console.Write("Voer een bedrag in euro's in: ");
             double euro = Convert.ToDouble(Console.ReadLine());
 
             //variables
             double pond, dollar, lira, dirham, kroon;
-            
+
             //berekening
-            pond =  euro * 0.8849;
+            pond = euro * 0.8849;
             dollar = euro * 1.1347;
             lira = euro * 6.0069;
             dirham = euro * 10.7900;
